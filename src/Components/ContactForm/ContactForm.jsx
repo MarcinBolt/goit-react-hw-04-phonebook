@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { usePhonebookContext } from '../PhonebookContext/PhonebookContext';
+import { usePhonebookContext } from '../../phonebookContext';
 import capitalizeEachWord from '../../utils/capitalizeEachWord';
 import css from './ContactForm.module.css';
 import PropTypes from 'prop-types';

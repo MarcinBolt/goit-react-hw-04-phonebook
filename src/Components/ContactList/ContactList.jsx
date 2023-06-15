@@ -1,4 +1,4 @@
-import { usePhonebookContext } from '../PhonebookContext/PhonebookContext';
+import { usePhonebookContext } from '../../phonebookContext';
 import PropTypes from 'prop-types';
 import css from './ContactList.module.css';
 

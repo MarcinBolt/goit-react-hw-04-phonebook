@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import localStore from '.././../utils/localStore';
+import localStore from './utils/localStore';
 
 const PhonebookContext = createContext();
 
@@ -8,12 +8,9 @@ const PhonebookContext = createContext();
 export const usePhonebookContext = () => useContext(PhonebookContext);
 
 export const PhonebookProvider = ({ children }) => {
-
-
   const [contacts, setContacts] = useState(
     localStore.load('contacts') ? localStore.load('contacts') : localStore.save('contacts', [])
   );
-  
   const [filter, setFilter] = useState('');
 
   const handleFiltering = e => {
