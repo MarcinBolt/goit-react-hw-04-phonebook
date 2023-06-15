@@ -1,4 +1,4 @@
-import { usePhonebookContext } from '../../phonebookContext';
+import { usePhonebookContext } from '../PhonebookContext/PhonebookContext';
 import css from './Filter.module.css';
 import PropTypes from 'prop-types';
 

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import localStore from './utils/localStore';
+import localStore from '../../utils/localStore';
 
 const PhonebookContext = createContext();
 
